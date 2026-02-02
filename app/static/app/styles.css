@@ -1,0 +1,321 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overscroll-behavior-y: none;
+}
+
+:root {
+    --font-ui: Andika;
+    --font-text: Amulya;
+    --font-size-ui: 16px;
+    --font-size-text: 16px;
+    --line-height-ui: normal;
+    --line-height-text: normal;
+    --font-weight-ui: normal;
+    --font-weight-text: normal;
+    --background-primary: oklch(0.9909 0.0045 34.31);
+    --background-secondary: oklch();
+    --background-tertiary: oklch();
+    --text-normal: oklch(0.3 0.02 70);
+    --text-muted: oklch();
+    --text-faint: oklch();
+    --link-color: oklch(  );
+    --link-color-hover: oklch();
+    --accent-color: oklch(0.5 0.1 305);
+    --accent-color-hover: oklch(0.6 0.2 305);
+    --delete-color: oklch(0.5 0.1 30);
+    --delete-color-hover:oklch(0.6 0.2 30);
+    --accent2-color: oklch(0.5 0.1 250);
+    --accent2-color-hover: oklch(0.6 0.2 250);
+
+}
+[data-theme="yellow"] {
+    --background-lightness: 0.9707;
+    --background-chroma: 0.0744;
+    --background-hue: 102;
+    --text-lightness: 0.3;
+    --text-chroma: 0.03;
+    --text-hue: 66;
+}
+
+[data-theme="parchment"] {
+    --background-lightness: 0.9467;
+    --background-chroma: 0.0644;
+    --background-hue: 103;
+    --text-lightness: 0.3;
+    --text-chroma: 0.03;
+    --text-hue: 66;
+}
+
+[data-theme="best yellow"] {
+    --background-lightness: 0.953;
+    --background-chroma: 0.085;
+    --background-hue: 101;
+    --text-lightness: 0.3;
+    --text-chroma: 0.02;
+    --text-hue: 70;
+}
+[data-theme="peachy75"] {
+    --background-lightness: 0.9;
+    --background-chroma: 0.085;
+    --background-hue: 75;
+    --text-lightness: 0.3;
+    --text-chroma: 0.02;
+    --text-hue: 79;
+}
+[data-theme="mango84"] {
+    --background-lightness: 0.9;
+    --background-chroma: 0.085;
+    --background-hue: 83.72;
+    --text-lightness: 0.3;
+    --text-chroma: 0.02;
+    --text-hue: 70;
+}
+
+[data-theme="nw105"] {
+    --background-lightness: 0.9;
+    --background-chroma: 0.085;
+    --background-hue: 105;
+    --text-lightness: 0.3;
+    --text-chroma: 0.02;
+    --text-hue: 70;
+}
+
+[data-theme="nw115"] {
+    --background-lightness: 0.9;
+    --background-chroma: 0.085;
+    --background-hue: 115;
+    --text-lightness: 0.3;
+    --text-chroma: 0.02;
+    --text-hue: 70;
+}
+
+[data-theme="nw130"] {
+    --background-lightness: 0.9;
+    --background-chroma: 0.085;
+    --background-hue: 130;
+    --text-lightness: 0.3;
+    --text-chroma: 0.02;
+    --text-hue: 70;
+}
+
+html {
+    font-size: var(--font-size-ui);
+
+body {
+    background-color: var(--background-secondary);
+    font-family: var(--font-ui);
+}
+
+.navbar {
+    background-color: var(--background-secondary);
+    font-size: 1.25rem;
+    height: 10dvh;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+.navbar-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+
+
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+.dropdown-content.visible {
+    display: block;
+    position: absolute;
+    top: 100%;
+    background-color: var(--background-secondary);
+    max-height: 95vh;
+    overflow-y: auto;
+}
+
+
+
+button.dropdown-button {
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    text-align: left;
+}
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: relative;
+}
+
+.delete-button {
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    background-color: var(--delete-button);
+    color: var(--delete-button-text);
+    font-weight: bold;
+    cursor: pointer;
+    width: 10dvw;
+}
+
+.delete-button:hover {
+    background-color: var(--delete-button-hover);
+    color: var(--delete-button-text-hover);
+}
+
+button.save-button {
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    border-radius: 0.25rem;
+    background-color: var(--save-button);
+    color: var(--save-button-text);
+    font-weight: bold;
+    cursor: pointer;
+    width: 8dvw;
+    padding: 0.5rem 1rem;
+}
+
+button.save-button:hover {
+    background-color: var(--save-button-hover);
+    color: var(--save-button-text-hover);
+}
+
+button.show-button {
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    border-radius: 0.25rem;
+    background-color: var(--accent-color);
+    color: var(--archive-button-text);
+    font-weight: bold;
+    cursor: pointer;
+    width: 10dvw;
+    padding: 0.5rem 1rem;
+}
+
+button.show-button:hover {
+    background-color: var(--archive-button-hover);
+    color: var(--archive-button-text-hover);
+}
+
+.messages {
+    margin: 20px 0;
+}
+
+.message {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.message.success {
+    background-color: #000;
+    color: oklch(0.91 0.2 136);
+    border: 1px solid #c3e6cb;
+    text-align: center;
+}
+
+.message.error {
+    background-color: #000;
+    color: oklch(0.628 0.26 29);
+    border: 1px solid #f5c6cb;
+    text-align: center;
+}
+
+.message.warning {
+    background-color: #000;
+    color: #856404;
+    border: 1px solid #ffeaa7;
+    text-align: center;
+}
+
+.message.info {
+    background-color: #000;
+    color: #0c5460;
+    border: 1px solid #bee5eb;
+    text-align: center;
+}
+
+button.save-button {
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    border-radius: 0.25rem;
+    background-color: var(--save-button);
+    color: var(--save-button-text);
+    font-weight: bold;
+    cursor: pointer;
+    width: 10dvw;
+    padding: 0.5rem 1rem;
+}
+
+button.save-button:hover {
+    background-color: var(--save-button-hover);
+    color: var(--save-button-text-hover);
+}
+
+
+.button-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 1rem;
+}
+.button-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    grid-gap: 1rem;
+}
+
+.archive-button {
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    background-color: var(--save-button);
+    color: var(--save-button-text);
+    font-weight: bold;
+    cursor: pointer;
+    width: 10dvw;
+}
+
+.archive-button:hover {
+    background-color: var(--save-button-hover);
+    color: var(--save-button-text-hover);
+}
+
+button {
+    font-family: var(--font-ui);
+    font-size: 1rem;
+    border: none;
+}
+a {
+    font-family: var(--font-ui);
+    text-decoration: none;
+}
+h1 {
+    margin: 1.5rem;
+    font-size: 2.25rem;
+    color: var(--text-normal);
+    text-align: center;
+}
+h2 {
+    font-size: 1.75rem;
+    margin: 1rem;
+    color: var(--text-normal);
+}
