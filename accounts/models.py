@@ -3,3 +3,6 @@ from django.db import models
 
 
 # Create your models here.
+class User(AbstractUser):
+    custom_field = models.CharField(max_length=100, blank=True)
+    pass
