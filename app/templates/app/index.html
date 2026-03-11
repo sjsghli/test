@@ -2,14 +2,15 @@
 {% block content %}
 
 <div class="container-1col">
+    <h1>Api Tester</h1>
     <div class="container-content-holder">
-        <h1>Welcome to the app</h1>
-        <p>This is an app</p>
-        <button class="button">action</button>
-        <div class="container-buttons">
-            <button class="button">choice</button>
-            <button class="button">choice</button>
-        </div>
+        
+        <form method="POST">
+            {% csrf_token %}
+            <input type="text" name="api_url" />
+            <button type="submit">Test API</button>
+        </form>
+        
     </div>
 </div>
 {% endblock %}

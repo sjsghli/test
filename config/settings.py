@@ -37,6 +37,7 @@ ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "").split(",")
 
 INSTALLED_APPS = [
     "accounts",
+    "taggit",
     "app",
     "django.contrib.admin",
     "django.contrib.auth",
@@ -140,3 +141,4 @@ LOGIN_REDIRECT_URL = "index"
 LOGOUT_REDIRECT_URL = "index"
 SESSION_COOKIE_AGE = 60 * 60 * 24 * 365  # 1 year
 SESSION_COOKIE_SECURE = not DEBUG
+DEFAULT_FROM_EMAIL = "noreply@project.com"

@@ -7,7 +7,469 @@
     overscroll-behavior-y: none;
 }
 
+@font-face {
+  font-family: 'Amulya';
+  src: url('fonts/Amulya-Variable.woff2') format('woff2'),
+       url('fonts/Amulya-Variable.woff') format('woff'),
+       url('fonts/Amulya-Variable.ttf') format('truetype');
+  font-weight: 300 700;
+  font-display: swap;
+  font-style: normal;
+}
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 300.0;
+*
+* available axes:
+'wght' (range from 300.0 to 700.0
+*/
+@font-face {
+  font-family: 'Amulya';
+  src: url('fonts/Amulya-VariableItalic.woff2') format('woff2'),
+       url('fonts/Amulya-VariableItalic.woff') format('woff'),
+       url('fonts/Amulya-VariableItalic.ttf') format('truetype');
+  font-weight: 300 700;
+  font-display: swap;
+  font-style: italic;
+}
 
+@font-face {
+  font-family: 'ABeeZee';
+  src: url('fonts/ABeeZee/ABeeZee-Regular.ttf') format('truetype');  
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ABeeZee';
+  src: url('fonts/ABeeZee/ABeeZee-Italic.ttf') format('truetype');  
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Amiko';
+  src: url('fonts/Amiko/Amiko-Regular.ttf') format('truetype');  
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Amiko';
+  src: url('fonts/Amiko/Amiko-Bold.ttf') format('truetype');  
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Amiko';
+  src: url('fonts/Amiko/Amiko-SemiBold.ttf') format('truetype');  
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Andika';
+  src: url('fonts/Andika/Andika-Regular.ttf') format('truetype');  
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Andika';
+  src: url('fonts/Andika/Andika-Bold.ttf') format('truetype');  
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Andika';
+  src: url('fonts/Andika/Andika-BoldItalic.ttf') format('truetype');  
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Andika';
+  src: url('fonts/Andika/Andika-Italic.ttf') format('truetype');  
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+
+
+
+@font-face {
+  font-family: 'BeVietnamPro';
+  src: url('fonts/Be_Vietnam_Pro/BeVietnamPro-Variable.woff2') format('woff2'),
+       url('fonts/Be_Vietnam_Pro/BeVietnamPro-Variable.woff') format('woff'),
+       url('fonts/Be_Vietnam_Pro/BeVietnamPro-Variable.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 100.0;
+*
+* available axes:
+'wght' (range from 100.0 to 900.0
+*/
+@font-face {
+  font-family: 'BeVietnamPro';
+  src: url('fonts/Be_Vietnam_Pro/BeVietnamPro-VariableItalic.woff2') format('woff2'),
+       url('fonts/Be_Vietnam_Pro/BeVietnamPro-VariableItalic.woff') format('woff'),
+       url('fonts/Be_Vietnam_Pro/BeVietnamPro-VariableItalic.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Comme';
+  src: url('fonts/Comme/Comme-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Convergence';
+  src: url('fonts/Convergence/Convergence-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Duru Sans';
+  src: url('fonts/Duru_Sans/DuruSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Encode Sans';
+  src: url('fonts/Encode_Sans/EncodeSans-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Encode Sans Expanded';
+  src: url('fonts/Encode_Sans_Expanded/EncodeSansExpanded-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Encode Sans Expanded';
+  src: url('fonts/Encode_Sans_Expanded/EncodeSansExpanded-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Encode Sans Expanded';
+  src: url('fonts/Encode_Sans_Expanded/EncodeSansExpanded-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Encode Sans Expanded';
+  src: url('fonts/Encode_Sans_Expanded/EncodeSansExpanded-Medium.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+
+
+
+@font-face {
+  font-family: 'Encode Sans SemiExpanded';
+  src: url('fonts/Encode_Sans_Semi_Expanded/EncodeSansSemiExpanded-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Encode Sans SemiExpanded';
+  src: url('fonts/Encode_Sans_Semi_Expanded/EncodeSansSemiExpanded-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Encode Sans SemiExpanded';
+  src: url('fonts/Encode_Sans_Semi_Expanded/EncodeSansSemiExpanded-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Encode Sans SemiExpanded';
+  src: url('fonts/Encode_Sans_Semi_Expanded/EncodeSansSemiExpanded-Medium.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'Golos Text';
+  src: url('fonts/Golos_Text/GolosText-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotu';
+  src: url('fonts/Gotu/Gotu-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inclusive Sans';
+  src: url('fonts/Inclusive_Sans/InclusiveSans-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inclusive Sans';
+  src: url('fonts/Inclusive_Sans/InclusiveSans-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Libre Franklin';
+  src: url('fonts/Libre_Franklin/LibreFranklin-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Libre Franklin';
+  src: url('fonts/Libre_Franklin/LibreFranklin-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Mooli';
+  src: url('fonts/Mooli/Mooli-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('fonts/Mulish/Mulish-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Mulish';
+  src: url('fonts/Mulish/Mulish-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Numans';
+  src: url('fonts/Numans/Numans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Quattrocento Sans';
+  src: url('fonts/Quattrocento_Sans/QuattrocentoSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Quattrocento Sans';
+  src: url('fonts/Quattrocento_Sans/QuattrocentoSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Quattrocento Sans';
+  src: url('fonts/Quattrocento_Sans/QuattrocentoSans-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Quattrocento Sans';
+  src: url('fonts/Quattrocento_Sans/QuattrocentoSans-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Telex';
+  src: url('fonts/Telex/Telex-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Varela';
+  src: url('fonts/Varela/Varela-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Varela Round';
+  src: url('fonts/Varela_Round/VarelaRound-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'PlusJakartaSans';
+  src: url('fonts/PlusJakartaSans-Variable.woff2') format('woff2'),
+       url('fonts/PlusJakartaSans-Variable.woff') format('woff'),
+       url('fonts/PlusJakartaSans-Variable.ttf') format('truetype');
+  font-weight: 200 800;
+  font-display: swap;
+  font-style: normal;
+}
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 400.0;
+*
+* available axes:
+'wght' (range from 200.0 to 800.0
+*/
+@font-face {
+  font-family: 'PlusJakartaSans';
+  src: url('fonts/PlusJakartaSans-VariableItalic.woff2') format('woff2'),
+       url('fonts/PlusJakartaSans-VariableItalic.woff') format('woff'),
+       url('fonts/PlusJakartaSans-VariableItalic.ttf') format('truetype');
+  font-weight: 200 800;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Sora';
+  src: url('fonts/Sora-Variable.woff2') format('woff2'),
+       url('fonts/Sora-Variable.woff') format('woff'),
+       url('fonts/Sora-Variable.ttf') format('truetype');
+  font-weight: 100 800;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sora';
+  src: url('fonts/Sora-VariableItalic.woff2') format('woff2'),
+       url('fonts/Sora-VariableItalic.woff') format('woff'),
+       url('fonts/Sora-VariableItalic.ttf') format('truetype');
+  font-weight: 100 800;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'MerriweatherSans';
+  src: url('fonts/MerriweatherSans-Variable.woff2') format('woff2'),
+       url('fonts/MerriweatherSans-Variable.woff') format('woff'),
+       url('fonts/MerriweatherSans-Variable.ttf') format('truetype');
+  font-weight: 300 800;
+  font-display: swap;
+  font-style: normal;
+}
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 300.0;
+*
+* available axes:
+'wght' (range from 300.0 to 800.0
+*/
+@font-face {
+  font-family: 'MerriweatherSans';
+  src: url('fonts/MerriweatherSans-VariableItalic.woff2') format('woff2'),
+       url('fonts/MerriweatherSans-VariableItalic.woff') format('woff'),
+       url('fonts/MerriweatherSans-VariableItalic.ttf') format('truetype');
+  font-weight: 300 800;
+  font-display: swap;
+  font-style: italic;
+}
+
+
+
+
+:root{
+    --background-primary: oklch(0.9909 0.0045 34.31);
+    --background-secondary: oklch(0.9709 0.0045 34.31);
+    --text-primary: oklch(0.3 0.02 70);
+    --text-secondary: oklch(0.35 0.02 70);
+    --text-contrast: oklch(0.99 0.0045 34);
+    --text-contrast-hover: oklch(1 0.05 34);
+    --font-ui: "Andika";
+    --font-text: "Mulish";
+    --banner: oklch(0.8 0.2168 133);
+    --show: oklch(0.6 0.25 250);
+    --show-hover: oklch(0.7 0.3 250);
+    --action: oklch(0.6 0.25 305);
+    --action-hover: oklch(0.7 0.3 305);
+    --delete: oklch(0.6 0.25 30);
+    --delete-hover: oklch(0.75 0.3 40);
+    --correct: oklch(0.6 0.25 140);
+    --correct-hover: oklch(0.7 0.3 140);
+    
+}
+body{
+    background-color: var(--background-primary);
+    color: var(--text-primary);
+    font-family: var(--font-text);
+}
+
+form{
+    margin-top: 2em;
+}
+label{
+    display: inline-block;
+    width: 10ch;
+    font-size: 1.25rem;
+}
+input{
+    display: inline-block;
+    font-size: 1.25rem;
+    margin-bottom: 1em;
+}
 .top-navbar{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -20,6 +482,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap:1rem;
+    background-color: var(--background-primary);
     
 }
 .mobile-navbar{
@@ -30,13 +493,40 @@
     z-index: 1000;
     
 }
+.mobile-navbar-button{
+    font-size:1rem;
+    padding:0.5em 1em;
+    border-radius: 0.5em;
+    width: 100%;
+    
+}
 .button{
     
     font-size:1rem;
     padding:0.5em 1em;
     border-radius: 0.5em;
     width: 100%;
+    margin-top: 1em;
 }
+.button-link{
+    font-size:1rem;
+    padding:0.5em 1em;
+    border-radius: 0.5em;
+    width: 100%;
+    text-decoration: none;
+    color: var(--text-primary);
+    display:block;
+    text-align: center;
+    border: 1px solid ;
+    margin-bottom:1em;
+    margin-top: 1em;
+    
+    
+    
+    
+}
+
+
 container-page{
     display:grid;
     grid-template-columns: 1fr;
@@ -50,7 +540,38 @@ container-page{
     align-content: space-around;
 }
 .action{
-    background-color: oklch();
+    background-color: var(--action);
+    color: var(--text-contrast);
+    
+}
+.action:hover{
+    background-color: var(--action-hover);
+    color: var(--text-contrast-hover);
+}
+
+.show{
+    background-color: var(--show);
+    color: var(--text-contrast);
+}
+.show:hover{
+    background-color: var(--show-hover);
+    color: var(--text-contrast-hover);
+}
+.delete{
+    background-color: var(--delete);
+    color: var(--text-contrast);
+}
+.delete:hover{
+    background-color: var(--delete-hover);
+    color: var(--text-contrast-hover);
+}
+.correct{
+    background-color: var(--correct);
+    color: var(--text-contrast);
+}
+.correct:hover{
+    background-color: var(--correct-hover);
+    color: var(--text-contrast-hover);
 }
 
 .container-1col{
@@ -76,7 +597,15 @@ container-page{
     width: 100%;
     
 }
-
+.banner{
+    background-color: var(--banner);
+    color: var(--text-primary);
+    padding: 1em;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    
+}
 
 
 @media screen and (max-width:768px) {

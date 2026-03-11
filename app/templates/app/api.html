@@ -1,0 +1,13 @@
+{% extends 'app/layout.html' %}
+
+{% block content %}
+    <h1>{{ data.last_updated}}</h1>
+    {% for item in data.stations %}
+    
+    <h2>{{ item.postcode }}  {{ item.prices}}</h2>
+    
+    
+    
+    {% endfor %}
+    {{data}}
+{% endblock %}
