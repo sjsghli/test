@@ -1,5 +1,8 @@
 from django.shortcuts import render
 import requests
+from urllib3.exceptions import InsecureRequestWarning
+import urllib3
+urllib3.disable_warnings(InsecureRequestWarning)
 
 # Create your views here.
 def index(request):
@@ -10,7 +13,7 @@ def index(request):
             'Accept': 'application/json',
         }
         try:
-            response = requests.get(api_url, headers=headers)
+            response = requests.get(api_url, headers=headers, verify=False)
         
             code = response.status_code
             text = response.text
